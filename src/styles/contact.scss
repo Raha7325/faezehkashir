@@ -1,0 +1,22 @@
+.contact {
+    .content {
+        ul {
+            justify-content: center;
+            li {
+                list-style-type: none;
+                div {
+                    cursor: pointer;
+                    i {
+                        justify-content: center !important;
+                    }
+                    strong {
+                        justify-content: center;
+                    }
+                }
+                &:hover {
+                    color: #f7786b;
+                }
+            }
+        }
+    }
+}
