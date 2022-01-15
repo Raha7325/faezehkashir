@@ -4,7 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
-  Home,
+  Skills,
   About,
   MyPic,
   Contact,
@@ -20,14 +20,14 @@ const Main = () => {
           </div>
           <div className='col-6 p-10'>
             <Routes>
-              <Route path='/' element={<Home />}  />
               <Route path='/about' element={<About />} />
+              <Route path='/skills' element={<Skills />} />
               <Route path='/contact' element={<Contact />} />
             </Routes>
           </div>
         </Router>
       </section>
-      <div className=' shadow-lg p-0 bg-body rounded d-flex ' style={{ "position": "absolute", "width": "32%", "height": "85%", "left": "18%","justifyContent":"center" }} >
+      <div className=' shadow-lg p-0 bg-body rounded d-flex ' style={{ "position": "absolute", "width": "32%", "height": "85%", "left": "18%", "justifyContent": "center" }} >
         <MyPic />
       </div>
     </div>
