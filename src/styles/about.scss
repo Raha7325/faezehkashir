@@ -1,0 +1,33 @@
+.about{
+    .container{
+        h5{
+            margin-top: 13px;
+            .year{
+                &::after{
+                    content:"";
+                    width: 2px;
+                    height: 18px;
+                    background-color: gray;
+                    position: absolute;
+                    transform : rotate(30deg);
+                    margin:4px 0 0 20px ;
+                    border-radius: 50%;
+                    
+                }
+            }
+            .location{
+                &::after{
+                    content:"";
+                    width: 2px;
+                    height: 18px;
+                    background-color: gray;
+                    position: absolute;
+                    transform : rotate(30deg);
+                    margin:4px 0 0 20px ;
+                    border-radius: 50%;
+                    
+                }
+            }       
+        }
+    }
+}
