@@ -2,6 +2,7 @@
     .container{
         h5{
             margin-top: 13px;
+            color:#f7786b;
             .year{
                 &::after{
                     content:"";
@@ -11,8 +12,7 @@
                     position: absolute;
                     transform : rotate(30deg);
                     margin:4px 0 0 20px ;
-                    border-radius: 50%;
-                    
+                    border-radius: 50%;  
                 }
             }
             .location{
